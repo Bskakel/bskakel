@@ -1,0 +1,113 @@
+/* ***************************************************************************
+General
+**************************************************************************** */
+.wrap {
+    width: 90%auto;
+    margin: 0auto;
+}
+body{
+  background-image: url("../images/chain.jpg");
+
+}
+
+.break{
+  opacity: 0.0;
+}
+
+.spacer{
+  background-color: blue;
+}
+
+.nodot{
+  list-style-type: none;
+}
+
+.links{
+  color: white;
+}
+
+.link{
+  color: black;
+}
+/* ***************************************************************************
+Nav
+**************************************************************************** */
+
+
+
+
+/* ***************************************************************************
+Nav
+**************************************************************************** */
+
+.nav-desktop{
+background-color: #222;
+height: 80px;
+padding: 0;
+}
+
+.site-logo {
+  color:white;
+  background-color: #222;
+  line-height: 80px;
+}
+
+.top-bar ul{
+  background-color: #222;
+  line-height: 80px;
+}
+
+.menu > li > a{
+  color:white;
+  display: inline-block;
+  line-height: 80px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+.menu > li > a:hover{
+background-color: #333;
+}
+
+
+/* ***************************************************************************
+Hero
+**************************************************************************** */
+.hero {
+  background-color: rgba(200,200,200,.9);
+  padding: 50px 60px;
+
+}
+
+
+
+/* ***************************************************************************
+Main Section
+**************************************************************************** */
+.main{
+  background-color: grey;
+  opacity: .9;
+}
+
+.headshot{
+  opacity: 1;
+}
+
+div img{
+  opacity: 1;
+}
+
+/* ***************************************************************************
+Footer
+**************************************************************************** */
+
+footer {
+
+  background-color: #222;
+  padding: 50px 60px;
+  color: white;
+}
+
+footer a{
+  display: block;
+}
